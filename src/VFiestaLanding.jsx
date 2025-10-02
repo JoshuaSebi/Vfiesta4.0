@@ -152,7 +152,7 @@ export default function VFiestaLanding() {
             >
               <motion.h1 
                 id="hero-heading" 
-                className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold tracking-tight"
+                className="text-5xl text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold tracking-tight"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, delay: 0.3 }}
@@ -217,7 +217,7 @@ export default function VFiestaLanding() {
                   href="#about"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
-                  className="inline-flex items-center justify-center px-8 py-4 border-2 border-secondary-300 text-secondary-700 text-lg font-semibold rounded-2xl hover:border-primary-600 hover:text-primary-600 transition-all duration-300 font-aderos tracking-wide"
+                  className="inline-flex items-center justify-center px-8 py-4 border-2 border-secondary-300 text-secondary-700 text-lg font-semibold rounded-2xl hover:border-primary-600 hover:text-primary-600 transition-all duration-300 font-aderos tracking-wide mb-12"
                 >
                   EXPLORE EVENT
                 </motion.a>
